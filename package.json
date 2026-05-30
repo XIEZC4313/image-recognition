@@ -1,0 +1,16 @@
+{
+  "name": "image-recognition",
+  "version": "1.0.0",
+  "description": "Image recognition website using TensorFlow.js",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "node server.js",
+    "build": "cd client && npm run build",
+    "install-all": "npm install && cd client && npm install"
+  },
+  "dependencies": {
+    "express": "^4.18.2",
+    "cors": "^2.8.5"
+  }
+}
